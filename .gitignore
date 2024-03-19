@@ -1,0 +1,24 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore build artifacts and compiled code
+node_modules/
+dist/
+build/
+*.exe
+*.dll
+*.jar
+*.war
+
+# Ignore configuration files with sensitive information
+config.js
+.env
+
+# Ignore log and temporary files
+*.log
+*.tmp
